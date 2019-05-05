@@ -1,0 +1,113 @@
+header .name {
+    text-align: left;
+}
+
+header .navbar {
+    background:#2F4858;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    height: 0px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 105%;
+}
+
+header nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav ul li a:link {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header .profile {
+    /* background-color: red; */
+    background-image : url("images/photo1.jpeg");
+    background-size: 100%;
+    height: 370px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+body {
+    background: #2F4858;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: 0;
+    padding: 0;     
+}
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo a {
+    background-color: red;
+    background-image: url("images/cover.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 500px; 
+    height: 250px;
+    position: relative;
+    top: 0px;
+}
+
+.poopy div {
+    color: blue;
+}
+footer {
+    background: black;
+}
+div {
+    background: red;
+    /* display: inline-block; */
+    margin: auto; /*flex across the width*/
+    width: 300px;
+    /* height: 100px; */
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+section.lower {
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
