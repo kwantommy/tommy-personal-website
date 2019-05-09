@@ -225,7 +225,7 @@ footer {
 
 
 .content-wrapper {
-    font-family: "HarrietText",sans-serif;
+    font-family: "HarrietText";
     color: black;
 }
 
@@ -234,14 +234,60 @@ footer {
     display: flex;
     flex-direction: row;
     margin:auto;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #3b3b3b;
+    
 }
 
 .iron-ring-content-test-wrapper {
+    font-family: "HarrietText";
     width: 70%;
+    font-size: 20px;
+    line-height: 1.9;
+    font-weight: lighter;
+    display: flex;
+    color: #7d7d7d;
 }
 
 .iron-ring-picture-test-wrapper {
-    width: 300px;
+    max-width:45%;
+}
+
+.iron-ring-picture-test-wrapper img{
+    width:100%;
+}
+
+.university-test h1 {
+    padding-left: 160px;
+    font-size: calc(1em * 1.250 * 1.250 * 1.250 * 1.250);
+    text-align: left;
+    font-family: "Balto", sans-serif;
+    letter-spacing: .012em;
+    margin-bottom: .6rem;
+    color: #3b3b3b; 
+    display: flex;
+}
+
+.university-test .h2 {
+    padding-left: 160px;
+    font-size: 20px;
+    text-align: left;
+    font-family: "HarrietText";
+    color: #7d7d7d;
+    display: flex;
+
+}
+
+.university-test h3 {
+    padding-left: 160px;
+    text-align: left;
+    color: #3b3b3b; 
+    font-size:15px;
+}
+
+.top-section {
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
 }
