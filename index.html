@@ -1,6 +1,3 @@
-<!--Home (Interests, About me),Contact, What I'm working on,Blog,Photos-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,52 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome!</title>
+    <title>Welcome to my site!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar-container">
+            <!-- <ul>
+                <li><a href="index.html" title = "nav">Home</a></li>
+                <li><a href="blog.html" title = "nav">Blog</a></li>
+                <li><a href="interests.html" title = "nav">Interests</a></li>
+                <li><a href="gallery.html" title = "nav">Gallery</a></li>
+                <li><a href="trivia.html" title = "nav">Trivia</a></li>
+                <li><a href="contact.html" title = "nav">Contact</a></li>
+            </ul> -->
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">My Thoughts</a></li>
-                <li><a href="interests.html">Interests</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <!-- <li class = "logo"><a href = "index.html">Logo</a></li> -->
+                <li><a href="#" title="home">Home</a></li>
+                <li><a href="#" title="Blog">Blog</a></li>
+                <li><a href="#" title="Interests">Interests</a></li>
+                <li><a href="#" title="Gallery">Gallery</a></li>
+                <li><a href="#" title="Trivia">Trivia</a></li>
+                <li><a href="#" title="Contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="profile"> </div>
-        <h1> Hi, I'm Tommy. Welcome to my website! </h1>
-        <h4> Feel free to browse around! On my website, you'll find out my interests, what I'm up to, and much more.
-        </h4>
     </header>
 
-    <div class="main-container">
-        <div class="about_me">
-            <h1>About me</h1>
-            <h4 class="about_me_content"> Nothing interesting! </h4>
+    <div class="main-container" style="background-color:lightcoral">
+        <div class="profile-container">
+            <div class="profile-picture">
+                <img src="images/profile_picture.png" style="width:300px">
+            </div>
+            <div style="background-color:mediumaquamarine"> Hi, I'm Tommy. Welcome to my website! </div>
+            <div style="background-color:lavender"> Feel free to browse around! On my website, you'll find out my
+                interests, what I'm up to, and much more.
+            </div>
+        </div>
+        <div class="home-content-container">
+            <div class="about_me" style="background-color:lightblue">
+                <h3>About me</h3>
+                <p class="about_me_content"> My favourite colour is red. My favourite animal is the
+                    hedgehog. My favourite team in the NBA is the Toronto Raptors. You can find out more random stuff
+                    about me in the <a href="Blog/">trivia </a> section of my website! </p>
+            </div>
 
+            <div class="up_to" style="background-color:brown">
+                <h3>What I'm Up To</h3>
+                <p class="up_to_content"> As of the end of April 2019, I have officially finished my undergraduate
+                    degree! I
+                    have spent the last
+                    five years studying electrical & biomedical engineering at McMaster University (Hamilton, Ontario)
+                    and what a journey it has been. Find out more about the school of biomedical engineering <a
+                        href="https://www.eng.mcmaster.ca/msbe">here!</a> I have also written about my university which
+                    you can find in the <a href=Blog /> <em>Blog</em></a> section of my website.
+                    journey
+                </p>
+
+                <p>In the meantime, I'm also working on creating a game. Stay tuned for more!</p>
+            </div>
+
+            <div class="blog" style="background-color:cyan">
+                <h3>Blog</h3>
+                <p> Check out my blog here! You'll find a variety of topics, such as my thoughts and projects. </p>
+            </div>
+
+            <div class="my-philosophy" style="background-color:red">
+                <h3>Words that I live by</h3>
+                <div class="my-philosophy-content"> Everyone has a story. Take your life and make it the best story in
+                    the world.</div>
+                <div class="my-philosophy-content"> Everything you want is on the other side of fear. </div>
+                <div class="my-philosophy-content"> No matter where life takes you, don't forget where you came from.
+                </div>
+                <div class="my-philosophy-content"> All I can control is myself and just keep having a positive
+                    attitude.
+                </div>
+                <div class="my-philosophy-content"> Whatever happens, happens. </div>
+                <div class="my-philosophy-content"> Have fun, otherwise it's not worth it. </div>
+            </div>
         </div>
 
-        <div class="up_to">
-            <h1>What I'm Up To</h1>
-            <h4 class="up_to_content"> Recently graduated! </h4>
-        </div>
 
-        <div class="my-philosophy">
-            <h1>My Philosophy</h1>
-            <h4 class="my-philosophy-content"> Recently graduated! </h4>
-        </div>
-
-        <div class="my-thoughts">
-            <h1>My Thoughts</h1>
-            <h4> Check out my thoughts here!! </h4>
-        </div>
-    </div>
-
-    <footer> kwan.tommy26@gmail.com • 647-289-9916 • Markham, ON • https://github.com/tommythetomato </footer>
+        <footer> kwan.tommy26@gmail.com • 647-289-9916 • Markham, ON •
+            https://github.com/tommythetomato </footer>
 
 </body>
 

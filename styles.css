@@ -1,293 +1,84 @@
-header .name {
-    text-align: left;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-header .navbar {
-    font-weight: 100;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+.navbar-container {
     text-align: right;
-    height: 120%;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 2px 2px 2px 2px;
     text-decoration: none;
-}
-
-header nav ul li a:hover {
-    text-decoration: none;
-    color: white;
-    font-size: 108%;
-}
-
-header nav ul li a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-header nav ul li a:link {
-    text-decoration: none;
-    color: black;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-header h1 {
-    text-align: center;
-    color: #000;
-}
-
-.main-container h1 {
-    color: black;
-    margin-left: 30px;
-    margin-top: 40px;
-    font-size:22px;
-}
-
-header h4 {
-    color: gray;
-    text-align: center;
-}
-
-header .profile {
-    /* background-color: red; */
-    background-image : url("images/photo1.jpeg");
-    background-size: 100%;
-    margin-top: 40px;
-    border-radius: 50%;
-    /* display: inline-block; */
-    margin: auto; /*flex across the width*/
-    width: 300px;
-    height: 300px;
-    /* height: 100px; */
-}
-
-body {
-    /* background: #2F4858; */
-    background:#fff;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;    
-    margin: 0;
-    padding: 0;     
-}
-
-section {
-    background: white;
-    color: gray;
-    padding: 20px;
-    /* margin: 20px; */
-    display: flex;
-    flex-direction: row;
-}
-
-.about_me {
-    color: black;
-    margin-left: 30px;
-    margin-top: 40px;
-    font-size: 12px;
-}
-
-.up_to {
-    color: black;
-    margin-left: 30px;
-    margin-top: 40px;
-    font-size:12px;
-}
-
-.up_to_content {
-    color: gray;
-}
-
-header .logo a {
-    background-color: red;
-    background-image: url("images/cover.jpg");
-    background-size: 500px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 500px; 
-    height: 250px;
+    /* background-color: #100e17; */
+    height: 60px;
     position: relative;
-    top: 0px;
+    
+}
+
+.navbar-container li {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-stretch: expanded; */
+    display: inline-block;
+    /* color: white; */
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    /* border: 1px solid #201c29; */
+    /* border-left: 1px solid white; */
+    text-align: center;
+    font-size: 0px;
+}
+
+.navbar-container li a {
+    font-size: 14px;
+    display:inline-block;
+    letter-spacing: 0.04px;
+}
+
+.navbar-container li a:visited, .navbar-container li a:link, .navbar-container li a:active{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar-container li a:hover {
+    /* color: #FF00FF; */
+    font-weight: bold;
+    letter-spacing:0;
+}
+
+a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 footer {
     background: black;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-}
-
-section.lower {
-    height: 500px;
-}
-
-footer {
-    text-align: center;
-    font-size: 14px;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin: 0;
-}
-
-.my_thoughts_pictures {
-    position:relative;
-    text-align: center;
     color: white;
-    display: flex;
-    flex-direction:row;
-}
-
-.my_thoughts_university {
-    position: relative;
     text-align: center;
-    color:white;
 }
 
-.title_edwards_hall {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: "Balto",sans-serif;
+.profile-container {
+    /* background-color: #100e17; */
+    background-color: white;
 }
 
-.title_basketball_and_analytics {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+ .profile-container {
+     margin-top: 10px;
 }
 
-/* HOVERING ON MY THOUGHTS PAGE */
-.my_thoughts_university:hover {
-    transform: scale(1.1);
-}
-
-.my_thoughts_basketball_and_analytics:hover {
-    transform: scale(1.1);
-}
-
-.my_thoughts_university img.edwards_hall_picture{
-    width: 300px;
-    height: 100%;
-    filter: brightness(40%);
-}
-
-.my_thoughts_basketball_and_analytics img.basketball_and_analytics_picture {
-    width: 300px;
-    height: 100%;
-    filter: brightness(40%);
-}
-
-.university_content {
-    color: gray;
-    font-size: 16px;
-    margin-left: 100px;
-    margin-right: 200px;
-    font-family: proxima-nova,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    letter-spacing: 0em;
-    line-height: 1.8em;
-    text-transform: none;
-    color: rgba(26,26,26,.75);
-}
-
-.iron_ring_group{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:80%;
-}
-.iron_ring_picture figcaption{
-    color:gray;
-    text-align: center;
-    margin-top:10px;
-}
-
-.university h3 {
-    color: black;
-    text-align: center;
-    font-size: 12px;
-}
-
-
-.content-wrapper {
-    font-family: "HarrietText";
-    color: black;
-}
-
-.content-wrapper-test {
-    max-width: 1100px;
-    display: flex;
-    flex-direction: row;
-    margin:auto;
-    color: #3b3b3b;
-    
-}
-
-.iron-ring-content-test-wrapper {
-    font-family: "HarrietText";
-    width: 70%;
-    font-size: 20px;
-    line-height: 1.9;
-    font-weight: lighter;
-    display: flex;
-    color: #7d7d7d;
-}
-
-.iron-ring-picture-test-wrapper {
-    max-width:45%;
-}
-
-.iron-ring-picture-test-wrapper img{
-    width:100%;
-}
-
-.university-test h1 {
-    padding-left: 160px;
-    font-size: calc(1em * 1.250 * 1.250 * 1.250 * 1.250);
-    text-align: left;
-    font-family: "Balto", sans-serif;
-    letter-spacing: .012em;
-    margin-bottom: .6rem;
-    color: #3b3b3b; 
-    display: flex;
-}
-
-.university-test .h2 {
-    padding-left: 160px;
-    font-size: 20px;
-    text-align: left;
-    font-family: "HarrietText";
-    color: #7d7d7d;
-    display: flex;
-
-}
-
-.university-test h3 {
-    padding-left: 160px;
-    text-align: left;
-    color: #3b3b3b; 
-    font-size:15px;
-}
-
-.top-section {
+img {
+    /* position: absolute;
+    width:300px;
+    transform:translate(-50%,-50%);
+    left: 50%; */
+    width:200px;
+    border-radius: 50%;
+    margin: 0 auto;
     display: block;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    
-}
+     margin-left: auto;
+    margin-right: auto;
+} 
+
+
